@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bluetoothRed">#FC0000</color>
+    <color name="BGLL">#292B37</color>
+    <color name="BGCV">#2F2C2C</color>
+    <color name="textColor">#C9C2C2</color>
+    <color name="cardBG">#3A4480</color>
+    <color name="red">#CF1111</color>
+    <color name="green">#4EC825</color>
+    <color name="blue">#217BA2</color>
+
+</resources>
