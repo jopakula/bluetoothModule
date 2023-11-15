@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/BGCV"
     android:layout_height="match_parent"
     tools:context=".MainFragment">
 
@@ -12,15 +13,17 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:backgroundTint="@color/blue"
+        android:backgroundTint="@color/BGLL"
         android:layout_marginEnd="5dp"
         android:text="BT LIST"
+        android:textColor="@color/textColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/tvStatus"
+        android:textColor="@color/textColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
@@ -34,7 +37,8 @@
         android:id="@+id/bConnect"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/green"
+        android:textColor="@color/textColor"
+        android:backgroundTint="@color/BGLL"
         android:text="CONNECT"
         app:layout_constraintBottom_toTopOf="@+id/bList"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,6 +50,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
+        android:textColor="@color/textColor"
+        android:backgroundTint="@color/BGLL"
         android:text="Send A"
         app:layout_constraintBottom_toTopOf="@+id/bConnect"
         app:layout_constraintEnd_toEndOf="parent"

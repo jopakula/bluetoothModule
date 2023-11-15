@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.BluetoothConstants
 import com.bluetooth.BluetoothController
+import com.checkBtPermissions
 import com.example.bluetoothmodule.databinding.FragmentMainBinding
 
 class MainFragment : Fragment(), BluetoothController.Listener {
@@ -27,6 +28,7 @@ class MainFragment : Fragment(), BluetoothController.Listener {
 
         binding = FragmentMainBinding.inflate(inflater, container, false)
         return binding.root
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
